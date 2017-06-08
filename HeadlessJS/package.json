@@ -1,0 +1,36 @@
+{
+	"name": "HeadlessJS",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"tslint": "tslint --exclude=\"src/**/*.d.ts\" \"src/**/*.{ts,tsx}\"",
+		"start:ios": "react-native run-ios",
+		"start:android": "react-native run-android",
+		"tsc": "tsc",
+		"clean": "rimraf artifacts",
+		"build": "npm run clean && npm run tsc --"
+	},
+	"dependencies": {
+    	"prop-types": "^15.5.10",
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.44.3"
+	},
+	"devDependencies": {
+    	"@types/jest": "^19.2.3",
+		"@types/react": "^15.0.24",
+		"@types/react-native": "^0.44.2",
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "1.9.2",
+    	"concurrently": "^3.4.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.6",
+		"rimraf": "^2.6.1",
+		"tslint": "^5.2.0",
+		"typescript": "^2.3.2"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

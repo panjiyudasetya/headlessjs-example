@@ -1,0 +1,21 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "space-before-function-paren": [ true, "never" ],
+        "quotemark": [ true, "single", "jsx-double" ],
+        "curly": false,
+        "trailing-comma": [ true, "never" ],
+        "interface-name": [ false ],
+        "ordered-imports": [ false ],
+        "object-literal-sort-keys": false,
+        "arrow-parens": [ true ],
+        "member-access": false,
+        "no-unused-variable": [ true, {"ignore-pattern": "^React$"} ],
+        "variable-name": [ true, "allow-leading-underscore"],
+        "no-console": [
+            "error"
+        ],
+        "allow" : ["warn", "log"]
+    },
+    "jsRules": {}
+}  

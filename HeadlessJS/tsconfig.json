@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2015",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "jsx": "react",
+        "outDir": "builtjs",
+        "rootDir": "src",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "typeRoots": [
+            "src/types"
+        ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/**/*",
+        "node_modules/redux/index.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

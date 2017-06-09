@@ -8,4 +8,4 @@ So here is my objective :
 Then I got this result.
 
 ## Screen shoot
-<img src="https://user-images.githubusercontent.com/21379421/26921986-ef315916-4c67-11e7-82be-e1a14c9d053c.png" width="300">
+<img src="https://user-images.githubusercontent.com/21379421/26969212-2180dcbc-4d2f-11e7-9993-37d85cb13adb.png" width="300">

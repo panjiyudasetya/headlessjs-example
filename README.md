@@ -7,5 +7,5 @@ So here is my objective :
 
 Then I got this result.
 
-## Screen shoot
+## Screen shot
 <img src="https://user-images.githubusercontent.com/21379421/26969212-2180dcbc-4d2f-11e7-9993-37d85cb13adb.png" width="300">
